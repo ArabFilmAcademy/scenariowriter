@@ -1,0 +1,90 @@
+{
+  "generator-ngx-rocket": {
+    "appName": "scenariowriter",
+    "target": [
+      "web",
+      "cordova",
+      "electron"
+    ],
+    "pwa": true,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "desktop": [
+      "windows",
+      "mac",
+      "linux"
+    ],
+    "ui": "material",
+    "layout": "simple",
+    "auth": false,
+    "lazy": true,
+    "angulartics": true,
+    "languages": [
+      "en-US"
+    ],
+    "analyticsProvider": "gtm",
+    "googleAnalyticsAccount": null,
+    "tools": [
+      "prettier",
+      "hads",
+      "compodoc",
+      "jest",
+      "puppeteer"
+    ],
+    "utility": [
+      "ramda",
+      "moment"
+    ],
+    "deploy": "github",
+    "version": "8.1.1",
+    "props": {
+      "location": "path",
+      "strict": false,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "screenwriter",
+      "target": [
+        "web",
+        "cordova",
+        "electron"
+      ],
+      "pwa": true,
+      "mobile": [
+        "ios",
+        "android"
+      ],
+      "desktop": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "ui": "material",
+      "layout": "simple",
+      "auth": false,
+      "lazy": true,
+      "angulartics": true,
+      "languages": [
+        "en-US"
+      ],
+      "analyticsProvider": "gtm",
+      "tools": [
+        "prettier",
+        "hads",
+        "compodoc",
+        "jest",
+        "puppeteer"
+      ],
+      "utility": [
+        "ramda",
+        "moment"
+      ],
+      "deploy": "github",
+      "projectName": "screenwriter",
+      "packageManager": "npm"
+    }
+  }
+}
