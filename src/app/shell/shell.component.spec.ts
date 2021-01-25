@@ -24,14 +24,10 @@ describe('ShellComponent', () => {
         BrowserAnimationsModule,
         FlexLayoutModule,
         MaterialModule,
-        CoreModule
+        CoreModule,
       ],
-      declarations: [
-        HeaderComponent,
-        ShellComponent
-      ]
-  })
-    .compileComponents();
+      declarations: [HeaderComponent, ShellComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

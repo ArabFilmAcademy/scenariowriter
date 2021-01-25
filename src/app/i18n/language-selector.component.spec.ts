@@ -13,16 +13,10 @@ describe('LanguageSelectorComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-        imports: [
-          BrowserAnimationsModule,
-          FlexLayoutModule,
-          MaterialModule,
-          TranslateModule.forRoot()
-        ],
-        declarations: [LanguageSelectorComponent],
-        providers: [I18nService]
-      })
-      .compileComponents();
+      imports: [BrowserAnimationsModule, FlexLayoutModule, MaterialModule, TranslateModule.forRoot()],
+      declarations: [LanguageSelectorComponent],
+      providers: [I18nService],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

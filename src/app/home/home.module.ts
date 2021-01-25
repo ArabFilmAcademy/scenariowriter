@@ -20,10 +20,8 @@ import { QuoteService } from './quote.service';
     FlexLayoutModule,
     MaterialModule,
     Angulartics2Module,
-    HomeRoutingModule
+    HomeRoutingModule,
   ],
-  declarations: [
-    HomeComponent
-  ]
+  declarations: [HomeComponent],
 })
-export class HomeModule { }
+export class HomeModule {}

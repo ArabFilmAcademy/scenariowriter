@@ -9,7 +9,6 @@ import { CoreModule } from '@core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-
   let statusBarSpy: any;
   let splashScreenSpy: any;
   let keyboardSpy: any;
@@ -17,24 +16,20 @@ describe('AppComponent', () => {
   beforeEach(async(() => {
     statusBarSpy = jest.fn();
     splashScreenSpy = {
-      hide: jest.fn()
+      hide: jest.fn(),
     };
     keyboardSpy = {
-      hideFormAccessoryBar: jest.fn()
+      hideFormAccessoryBar: jest.fn(),
     };
 
     TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule,
-        TranslateModule.forRoot(),
-        CoreModule
-      ],
+      imports: [RouterTestingModule, TranslateModule.forRoot(), CoreModule],
       declarations: [AppComponent],
       providers: [
         { provide: Keyboard, useValue: keyboardSpy },
         { provide: StatusBar, useValue: statusBarSpy },
         { provide: SplashScreen, useValue: splashScreenSpy },
-      ]
+      ],
     }).compileComponents();
   }));
 
