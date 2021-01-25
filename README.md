@@ -1,7 +1,31 @@
-# scenariowriter
+# Scenario Writer
 
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
-version 8.1.1
+## Todo:
+
+- Update Scenario Component.
+  - Design scenario Print and create PDF
+  - Save scenario in a local device and Google Drive.
+  - Import scenario from a local device.
+- Update Editor Component.
+  - Change Line type by `Tab` and `Tab+shift`.
+  - Change Line Type after creating a new line.
+  - Change Line type from the toolbar.
+    - A dropdown menu.
+    - Next & Prev Buttons
+  - Create And Edit the Scenario Title and information from the toolbar.
+- Create a Character component
+  - Character interface.
+    - Name.
+    - Age.
+    - Marital status.
+    - style
+  - Character Profile.
+    - Character biography.
+    - Character Upraising.
+    - Character history.
+      - Family up to 3rd generation up.
+  - Characters list.
+    - Display as grid or list.
 
 # Getting started
 
