@@ -30,9 +30,7 @@
               "src/manifest.json",
               "src/assets"
             ],
-            "styles": [
-              "src/main.scss"
-            ],
+            "styles": ["src/main.scss"],
             "scripts": []
           },
           "configurations": {
@@ -75,6 +73,7 @@
           "options": {
             "browserTarget": "screenwriter:build",
             "hmr": true,
+            "port": 4210,
             "hmrWarning": false
           },
           "configurations": {
@@ -110,14 +109,8 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "tsConfig": ["tsconfig.app.json", "tsconfig.spec.json", "e2e/tsconfig.json"],
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -139,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "screenwriter"
+  "defaultProject": "screenwriter",
+  "cli": {
+    "analytics": "f204e761-742f-4e1c-a47a-7ac036c6a8b4"
+  }
 }
