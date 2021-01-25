@@ -18,6 +18,8 @@ import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { EditorModule } from '@app/editor/editor.module';
+import { ScenarioModule } from '@app/scenario/scenario.module';
 
 @NgModule({
   imports: [
@@ -32,6 +34,8 @@ import { AppRoutingModule } from './app-routing.module';
     SharedModule,
     ShellModule,
     HomeModule,
+    EditorModule,
+    ScenarioModule,
     Angulartics2Module.forRoot(),
     AppRoutingModule, // must be imported as the last module as it contains the fallback route
   ],
