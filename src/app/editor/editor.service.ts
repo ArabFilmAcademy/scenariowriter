@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { LineType } from '@app/editor/line-type';
-import * as lineType from 'src/assets/data/line-type.json';
-import * as transitionSuggestion from 'src/assets/data/transition.json';
+import * as lineType from '@assets/data/line-type.json';
+import * as transitionSuggestion from '@assets/data/transition.json';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
