@@ -1,0 +1,65 @@
+[
+  {
+    "id": "0",
+    "name": "انتقال",
+    "code": "transition",
+    "description": "شرح طريقة الانتقال من مشهد الى اخر",
+    "nextTab": 1,
+    "nextEnter": 1,
+    "prevTab": 2
+  },
+  {
+    "id": "1",
+    "name": "عنوان المشهد",
+    "code": "scene-heading",
+    "description": "عنوان المشهد يبدأ ب داخل/خارج ثم المكان وينتهي ب صباح/مساء",
+    "nextTab": 2,
+    "nextEnter": 2,
+    "prevTab": 0
+  },
+  {
+    "id": "2",
+    "name": "حركة",
+    "code": "action",
+    "description": "وصف حركة الشخصيات في المشهد",
+    "nextTab": 3,
+    "nextEnter": 2,
+    "prevTab": 1
+  },
+  {
+    "id": "3",
+    "name": "شخصية",
+    "code": "character",
+    "description": "اسم الشخصية",
+    "nextTab": 1,
+    "nextEnter": 5,
+    "prevTab": 2
+  },
+  {
+    "id": "4",
+    "name": "بين أقواس",
+    "code": "parenthesis",
+    "description": "طريقة قول الكلام بالاضافة لأكثر استخدام لها (يكمل) عند إكمال الحديث بعد الحركة",
+    "nextTab": 5,
+    "nextEnter": 5,
+    "prevTab": 5
+  },
+  {
+    "id": "5",
+    "name": "حوار",
+    "code": "dialog",
+    "description": "الكلام الذي تنطق به الشخصية",
+    "nextTab": 4,
+    "nextEnter": 2,
+    "prevTab": 4
+  },
+  {
+    "id": "6",
+    "name": "عنوان فرعي",
+    "code": "subheader",
+    "description": "حين لا يحتاج كتابة كل التفاصيل على المشهد (لا ينصح باستخدامه)",
+    "nextTab": 2,
+    "nextEnter": 2,
+    "prevTab": 1
+  }
+]
