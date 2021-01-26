@@ -1,0 +1,74 @@
+{
+  "configVersion": 1,
+  "timestamp": 1611648003116,
+  "index": "/scenariowriter/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/scenariowriter/5.75a4f1ca1f5969fb8df0.js",
+        "/scenariowriter/favicon.ico",
+        "/scenariowriter/index.html",
+        "/scenariowriter/main.6dbf772e3ecd0199aa55.js",
+        "/scenariowriter/manifest.json",
+        "/scenariowriter/polyfills-es5.843dac686aeed00f071b.js",
+        "/scenariowriter/polyfills.71d87feb638b7fba08d7.js",
+        "/scenariowriter/runtime.dcde8e3143ae44035a80.js",
+        "/scenariowriter/styles.0dae92b9ccfb58cbe66c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/scenariowriter/MaterialIcons-Regular.00b1fb69fb78ff50fd55.ttf",
+        "/scenariowriter/MaterialIcons-Regular.12a47ed5fd5585f0f422.woff2",
+        "/scenariowriter/MaterialIcons-Regular.479700ea91d964d295d7.eot",
+        "/scenariowriter/MaterialIcons-Regular.f2a0933406f783065152.woff",
+        "/scenariowriter/assets/ngx-rocket-logo.png",
+        "/scenariowriter/assets/ngx-rocket-logo@192.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/scenariowriter/5.75a4f1ca1f5969fb8df0.js": "ed1256f414b7578a98494a93deaedd7d30ffda44",
+    "/scenariowriter/MaterialIcons-Regular.00b1fb69fb78ff50fd55.ttf": "b2091f9964be16d1065d5afee6d0b258fe29a5ac",
+    "/scenariowriter/MaterialIcons-Regular.12a47ed5fd5585f0f422.woff2": "308ee3580a4a34bd230025d460762d53b5344efc",
+    "/scenariowriter/MaterialIcons-Regular.479700ea91d964d295d7.eot": "b28698262d8d8766c7c1bede47059ebea19a90a0",
+    "/scenariowriter/MaterialIcons-Regular.f2a0933406f783065152.woff": "951adc0458f2ead8495da26886b1f1284a716eaa",
+    "/scenariowriter/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "/scenariowriter/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "/scenariowriter/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "/scenariowriter/index.html": "64f9802da8d553cce906aa095ecda6d5347331ad",
+    "/scenariowriter/main.6dbf772e3ecd0199aa55.js": "c63ab1235a18a2a29a7388c5f801c74d6d6db870",
+    "/scenariowriter/manifest.json": "ab83bd0f137447062c4646e17571d697aec08aba",
+    "/scenariowriter/polyfills-es5.843dac686aeed00f071b.js": "d579f086e6369e2976d5e4afdf8789d3239c59a3",
+    "/scenariowriter/polyfills.71d87feb638b7fba08d7.js": "00d68f6bec8622ed1a323563d0a30dd7a541895c",
+    "/scenariowriter/runtime.dcde8e3143ae44035a80.js": "d3b25abfa1c86ef44c8aaf5d23b8b1633b1921fd",
+    "/scenariowriter/styles.0dae92b9ccfb58cbe66c.css": "6d799901eb6b22eecad98e83bd7b1031c016ea17"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
