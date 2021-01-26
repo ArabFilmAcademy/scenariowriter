@@ -11,6 +11,7 @@ import { SharedModule } from '@shared';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@app/material.module';
 import { Angulartics2Module } from 'angulartics2';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [EditorComponent, EditorToolbarComponent, EditorPaperComponent],
@@ -23,6 +24,7 @@ import { Angulartics2Module } from 'angulartics2';
     MaterialModule,
     Angulartics2Module,
     EditorRoutingModule,
+    FormsModule,
   ],
 })
 export class EditorModule {}

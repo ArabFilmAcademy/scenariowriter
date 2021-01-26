@@ -1,7 +1,8 @@
-import { LineType } from '@app/scenario/line-type';
+import { LineType } from '@app/editor/line-type';
 
 export interface Scenario {
   id: number;
+  title: string;
   author: string;
   contact: Contact;
   draft: boolean;
@@ -23,5 +24,5 @@ export interface Line {
   type: LineType;
   content: string;
   added: string;
-  modified: string;
+  modified?: string[];
 }
