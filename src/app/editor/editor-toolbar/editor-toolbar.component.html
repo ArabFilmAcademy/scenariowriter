@@ -1,25 +1,17 @@
 <mat-toolbar class="mat-elevation-z3 navbar" fxHide.print>
-  <div fxHide.gt-sm fxLayoutAlign="start center">
-    <button class="menu-button" mat-icon-button>
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span class="title"></span>
-  </div>
-  <div fxHide.lt-md>
-    <button mat-button routerLink="/home" routerLinkActive="active">
-      <mat-icon>home</mat-icon>
-      <span translate>Home</span>
-    </button>
-    <button mat-button routerLink="/about" routerLinkActive="active">
-      <mat-icon>info</mat-icon>
-      <span translate>About</span>
-    </button>
-  </div>
+  <mat-form-field>
+    <input [(ngModel)]="scenario.title" matInput />
+  </mat-form-field>
   <span fxFlex></span>
-  <a mat-button href="https://twitter.com/arabfilmacademy">
-    <span class="iconify twitter" data-icon="mdi-twitter" data-inline="false"></span>
-  </a>
-  <a mat-button href="https://github.com/arabfilmacademy/scenariowriter">
-    <span class="iconify github" data-icon="mdi-github" data-inline="false"></span>
-  </a>
+  <button mat-button>
+    <mat-icon>keyboard_arrow_right</mat-icon>
+    <span translate>Prev</span>
+  </button>
+  <mat-select fxFlex="10" [(value)]="selected">
+    <mat-option *ngFor="let lineType of lintTypes" value="{{ lineType.code }}">{{ lineType.name }}</mat-option>
+  </mat-select>
+  <button mat-button>
+    <span translate>Next</span>
+    <mat-icon>keyboard_arrow_left</mat-icon>
+  </button>
 </mat-toolbar>
