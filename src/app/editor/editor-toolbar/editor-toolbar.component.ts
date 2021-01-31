@@ -28,5 +28,10 @@ export class EditorToolbarComponent implements OnInit {
         this.isLoading = true;
         this.lintTypes = lintTypes;
       });
+    // TODO:
+    //  Send the selected line type to the editor paper component
+    //  to change the anchor node type
+
+    // TODO: Change the selected lyne type option to match the line it is on.
   }
 }
